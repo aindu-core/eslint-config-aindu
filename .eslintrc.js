@@ -55,7 +55,6 @@ module.exports = {
 		"prefer-template": "error",
 		"class-methods-use-this": "error",
 		"dot-notation": "warn",
-		complexity: ["warn", 3],
 		radix: "error",
 		yoda: "error",
 
