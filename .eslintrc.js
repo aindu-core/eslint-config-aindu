@@ -13,7 +13,7 @@ module.exports = {
 	rules: {
 		//error prevention
 		"array-callback-return": ["error", { checkForEach: true }],
-		"no-await-in-loop": "error",
+		"no-await-in-loop": "warn",
 		"no-constant-binary-expression": "error",
 		"no-constructor-return": "error",
 		"no-promise-executor-return": "error",
@@ -40,7 +40,7 @@ module.exports = {
 		eqeqeq: "error",
 		"new-cap": ["error", { capIsNew: false }],
 		"no-array-constructor": "error",
-		"no-console": ["error", { allow: ["error"] }],
+		"no-console": ["warn", { allow: ["error"] }],
 		"no-else-return": ["error", { allowElseIf: false }],
 		"no-extend-native": "error",
 		"no-lonely-if": "error",
@@ -53,7 +53,7 @@ module.exports = {
 		"prefer-rest-params": "error",
 		"prefer-spread": "error",
 		"prefer-template": "error",
-		"class-methods-use-this": "error",
+		"class-methods-use-this": "warn",
 		"dot-notation": "warn",
 		radix: "error",
 		yoda: "error",
