@@ -8,7 +8,7 @@ module.exports = {
 	parserOptions: {
 		requireConfigFile: false,
 	},
-	extends: ["eslint:recommended", "plugin:prettier/recommended"],
+	extends: ["eslint:recommended"],
 	plugins: ["simple-import-sort", "import", "unused-imports"],
 	rules: {
 		//error prevention
@@ -72,7 +72,6 @@ module.exports = {
 		"import/no-duplicates": "error",
 		"import/no-unresolved": "error",
 		"import/no-webpack-loader-syntax": "error",
-		"prettier/prettier": ["error", { printWidth: 100, useTabs: true }],
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
 		"unused-imports/no-unused-imports": "error",
